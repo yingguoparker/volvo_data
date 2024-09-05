@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "name": "message",
+      "direction": "in",
+      "topicName": "blobnotifiactions",
+      "subscriptionName": "blobCreatedSubscription",
+      "connection": "ServiceBusConnection"
+    }
+  ]
+}
